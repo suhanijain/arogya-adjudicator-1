@@ -1,0 +1,72 @@
+Arogya claims adjudicator - setup and recreation
+
+Requirements
+------------
+- Git
+- Python 3.13 (matches the project's Dockerfile)
+- PowerShell on Windows, or a shell that supports the equivalent commands below
+- Optional: Docker Desktop, for the container-based setup
+- Optional: Ollama, for local LLM and neural embedding models
+
+Clone and install (Windows PowerShell)
+--------------------------------------
+git clone https://github.com/suhanijain/arogya-adjudicator-1.git
+Set-Location .\arogya-adjudicator-1
+py -3.13 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+Copy-Item .env.example .env
+
+Edit .env before using the application outside a local demo. In particular,
+replace CLAIMS_APPROVAL_SECRET with a strong, unique secret. Do not commit .env.
+
+Recreate generated demo data
+----------------------------
+python scripts/make_history.py
+python scripts/make_provider_rates.py
+
+The claims dataset and policy data are already in the repository. The commands
+above regenerate patient history and provider rates from the committed data.
+These fixtures are synthetic.
+
+Run checks and start locally
+----------------------------
+python -m pytest -q
+python -m uvicorn server:app --host 127.0.0.1 --port 8000
+
+Open http://127.0.0.1:8000. The Chroma vector database is created or opened
+automatically on startup under .vectordb (or the path set by VECTOR_DB_DIR).
+It is derived from the committed policy and glossary data; it does not need to
+be copied into the repository.
+
+Optional local AI models
+------------------------
+Install and start Ollama separately, then run:
+ollama pull llama3.1:8b
+ollama pull nomic-embed-text
+
+Set OLLAMA_BASE_URL, OLLAMA_MODEL, and (optionally) OLLAMA_EMBED_MODEL in .env.
+Without Ollama, the app uses deterministic text fallbacks and offline LSA
+embeddings.
+
+Optional Docker setup
+---------------------
+Copy .env.example to .env and replace the demo approval secret, then run:
+docker compose up --build
+
+Netlify deployment note
+-----------------------
+This repository is a full-stack FastAPI application, not a static-only website.
+The UI calls /api/... endpoints and the backend builds a persistent Chroma
+index. Netlify's standard static-site deployment cannot run server.py, so
+deploying only the static/ directory will display the UI but its API-backed
+features will not work.
+
+To make a working public deployment, first deploy the Python backend and its
+persistent storage on a Python/container host. Then configure the frontend to
+use that backend (including CORS and secure approval credentials), and add a
+Netlify proxy/rewrite or equivalent API configuration. This repository does
+not yet include that deployment configuration. Do not expose the demo approval
+secret or publish a working claims application with real personal health data
+without appropriate security and privacy controls.
