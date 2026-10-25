@@ -1,0 +1,16 @@
+dspy==3.4.1
+fastapi==0.143.5
+httpx==0.28.1
+langchain-ollama==1.1.0
+langchain-core==1.6.12
+langgraph==1.2.16
+langsmith==0.14.11
+prometheus_client==0.26.0
+pydantic==2.13.5
+pytest==9.1.1
+rank-bm25==0.2.2
+uvicorn==0.53.0
+chromadb==1.5.9
+langchain-chroma==1.1.0
+scikit-learn==1.9.1
+numpy==2.5.3
