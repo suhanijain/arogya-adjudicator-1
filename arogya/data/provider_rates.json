@@ -1,0 +1,156 @@
+{
+ "syncedAt": "2026-10-26T02:00:00Z",
+ "source": "network provider rate files (simulated sync)",
+ "hospitals": {
+  "Apollo Hospitals": {
+   "city": "Mumbai",
+   "tier": "tier1",
+   "packages": {
+    "Haemodialysis session": 2800,
+    "Chemotherapy cycle (day care)": 30000,
+    "Physiotherapy session": 1000
+   },
+   "rooms": {
+    "general_ward": 2000,
+    "semi_private": 3500,
+    "private": 5500,
+    "deluxe": 9000
+   }
+  },
+  "Fortis Memorial Research Institute": {
+   "city": "Gurugram",
+   "tier": "tier1",
+   "packages": {
+    "Haemodialysis session": 2800,
+    "Chemotherapy cycle (day care)": 30000,
+    "Physiotherapy session": 1000
+   },
+   "rooms": {
+    "general_ward": 2000,
+    "semi_private": 3500,
+    "private": 5500,
+    "deluxe": 9000
+   }
+  },
+  "Max Super Speciality Hospital": {
+   "city": "New Delhi",
+   "tier": "tier1",
+   "packages": {
+    "Haemodialysis session": 2800,
+    "Chemotherapy cycle (day care)": 30000,
+    "Physiotherapy session": 1000
+   },
+   "rooms": {
+    "general_ward": 2000,
+    "semi_private": 3500,
+    "private": 5500,
+    "deluxe": 9000
+   }
+  },
+  "Manipal Hospital": {
+   "city": "Bengaluru",
+   "tier": "tier1",
+   "packages": {
+    "Haemodialysis session": 2800,
+    "Chemotherapy cycle (day care)": 30000,
+    "Physiotherapy session": 1000
+   },
+   "rooms": {
+    "general_ward": 2000,
+    "semi_private": 3500,
+    "private": 5500,
+    "deluxe": 9000
+   }
+  },
+  "Ruby Hall Clinic": {
+   "city": "Pune",
+   "tier": "tier2",
+   "packages": {
+    "Haemodialysis session": 2200,
+    "Chemotherapy cycle (day care)": 25000,
+    "Physiotherapy session": 800
+   },
+   "rooms": {
+    "general_ward": 1600,
+    "semi_private": 2800,
+    "private": 4400,
+    "deluxe": 7200
+   }
+  },
+  "Sterling Hospital": {
+   "city": "Ahmedabad",
+   "tier": "tier2",
+   "packages": {
+    "Haemodialysis session": 4600,
+    "Chemotherapy cycle (day care)": 25000,
+    "Physiotherapy session": 800
+   },
+   "rooms": {
+    "general_ward": 1600,
+    "semi_private": 2800,
+    "private": 4400,
+    "deluxe": 7200
+   }
+  },
+  "Narayana Multispeciality Hospital": {
+   "city": "Jaipur",
+   "tier": "tier2",
+   "packages": {
+    "Haemodialysis session": 2200,
+    "Chemotherapy cycle (day care)": 25000,
+    "Physiotherapy session": 800
+   },
+   "rooms": {
+    "general_ward": 1600,
+    "semi_private": 2800,
+    "private": 4400,
+    "deluxe": 7200
+   }
+  },
+  "Apollo Reach Hospital": {
+   "city": "Karimnagar",
+   "tier": "tier3",
+   "packages": {
+    "Haemodialysis session": 1800,
+    "Chemotherapy cycle (day care)": 20000,
+    "Physiotherapy session": 600
+   },
+   "rooms": {
+    "general_ward": 1200,
+    "semi_private": 2100,
+    "private": 3300,
+    "deluxe": 5400
+   }
+  },
+  "Apex District Hospital": {
+   "city": "Solapur",
+   "tier": "tier3",
+   "packages": {
+    "Haemodialysis session": 1800,
+    "Chemotherapy cycle (day care)": 20000,
+    "Physiotherapy session": 600
+   },
+   "rooms": {
+    "general_ward": 1200,
+    "semi_private": 2100,
+    "private": 3300,
+    "deluxe": 5400
+   }
+  },
+  "Lifeline General Hospital": {
+   "city": "Udupi",
+   "tier": "tier3",
+   "packages": {
+    "Haemodialysis session": 1800,
+    "Chemotherapy cycle (day care)": 20000,
+    "Physiotherapy session": 600
+   },
+   "rooms": {
+    "general_ward": 1200,
+    "semi_private": 2100,
+    "private": 3300,
+    "deluxe": 5400
+   }
+  }
+ }
+}

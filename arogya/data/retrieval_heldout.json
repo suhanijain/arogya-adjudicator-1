@@ -1,0 +1,78 @@
+[
+ {
+  "query": "daily fee for a hospital bed beyond what the policy allows",
+  "expected": [
+   "Clause 4.1.a",
+   "Clause 4.1 Note b"
+  ]
+ },
+ {
+  "query": "does the insurer pay for the stretcher van",
+  "expected": [
+   "Clause 4.1.1.e"
+  ]
+ },
+ {
+  "query": "is laser eye surgery for cataract fully paid",
+  "expected": [
+   "Clause 4.3"
+  ]
+ },
+ {
+  "query": "what happens if someone lies on the claim form",
+  "expected": [
+   "Clause 10.9"
+  ]
+ },
+ {
+  "query": "limit on advanced treatment like robotic procedures",
+  "expected": [
+   "Clause 4.6"
+  ]
+ },
+ {
+  "query": "insurer rejects items like toiletries and wifi",
+  "expected": [
+   "Clause 4.7",
+   "Annexure-A List I",
+   "Annexure-A List II"
+  ]
+ },
+ {
+  "query": "claim made within the first month of buying",
+  "expected": [
+   "Clause 6.3 (Excl03)"
+  ]
+ },
+ {
+  "query": "premium year bonus for not claiming",
+  "expected": [
+   "Clause 5"
+  ]
+ },
+ {
+  "query": "alternative medicine like homeopathy covered",
+  "expected": [
+   "Clause 4.2"
+  ]
+ },
+ {
+  "query": "ICU expenses ceiling",
+  "expected": [
+   "Clause 4.1.b"
+  ]
+ },
+ {
+  "query": "waiting for hip replacement",
+  "expected": [
+   "Clause 6.2(ii) (Excl02)"
+  ]
+ },
+ {
+  "query": "cut in payment because the room was upgraded",
+  "expected": [
+   "Clause 4.1 Note b",
+   "Clause 4.1.a"
+  ]
+ }
+]

@@ -1,0 +1,254 @@
+[
+ {
+  "procedureName": "Cataract Phacoemulsification with Foldable IOL",
+  "category": "Ophthalmology",
+  "benchmarks": {
+   "tier1": {
+    "min": 25000,
+    "max": 45000,
+    "standardAvg": 35000
+   },
+   "tier2": {
+    "min": 18000,
+    "max": 35000,
+    "standardAvg": 26000
+   },
+   "tier3": {
+    "min": 14000,
+    "max": 28000,
+    "standardAvg": 20000
+   }
+  }
+ },
+ {
+  "procedureName": "Inguinal Hernioplasty (Mesh Repair)",
+  "category": "General Surgery",
+  "benchmarks": {
+   "tier1": {
+    "min": 45000,
+    "max": 75000,
+    "standardAvg": 58000
+   },
+   "tier2": {
+    "min": 32000,
+    "max": 55000,
+    "standardAvg": 42000
+   },
+   "tier3": {
+    "min": 22000,
+    "max": 40000,
+    "standardAvg": 30000
+   }
+  }
+ },
+ {
+  "procedureName": "Laparoscopic Cholecystectomy",
+  "category": "Gastroenterology / Surgery",
+  "benchmarks": {
+   "tier1": {
+    "min": 55000,
+    "max": 95000,
+    "standardAvg": 72000
+   },
+   "tier2": {
+    "min": 40000,
+    "max": 70000,
+    "standardAvg": 52000
+   },
+   "tier3": {
+    "min": 28000,
+    "max": 50000,
+    "standardAvg": 38000
+   }
+  }
+ },
+ {
+  "procedureName": "Total Knee Replacement (Arthroplasty)",
+  "category": "Orthopedics",
+  "benchmarks": {
+   "tier1": {
+    "min": 160000,
+    "max": 260000,
+    "standardAvg": 210000
+   },
+   "tier2": {
+    "min": 125000,
+    "max": 195000,
+    "standardAvg": 160000
+   },
+   "tier3": {
+    "min": 95000,
+    "max": 150000,
+    "standardAvg": 120000
+   }
+  }
+ },
+ {
+  "procedureName": "Acute Gastroenteritis / Fever Medical Management",
+  "category": "Internal Medicine",
+  "benchmarks": {
+   "tier1": {
+    "min": 16000,
+    "max": 38000,
+    "standardAvg": 26000
+   },
+   "tier2": {
+    "min": 12000,
+    "max": 28000,
+    "standardAvg": 19000
+   },
+   "tier3": {
+    "min": 8000,
+    "max": 18000,
+    "standardAvg": 13000
+   }
+  }
+ },
+ {
+  "procedureName": "Appendectomy (Laparoscopic)",
+  "category": "General Surgery",
+  "benchmarks": {
+   "tier1": {
+    "min": 48000,
+    "max": 82000,
+    "standardAvg": 62000
+   },
+   "tier2": {
+    "min": 35000,
+    "max": 62000,
+    "standardAvg": 46000
+   },
+   "tier3": {
+    "min": 24000,
+    "max": 45000,
+    "standardAvg": 32000
+   }
+  }
+ },
+ {
+  "procedureName": "Tympanoplasty / Mastoidectomy",
+  "category": "ENT",
+  "benchmarks": {
+   "tier1": {
+    "min": 32000,
+    "max": 58000,
+    "standardAvg": 44000
+   },
+   "tier2": {
+    "min": 24000,
+    "max": 44000,
+    "standardAvg": 33000
+   },
+   "tier3": {
+    "min": 16000,
+    "max": 32000,
+    "standardAvg": 23000
+   }
+  }
+ },
+ {
+  "procedureName": "Robotic-Assisted Surgery (Clause 4.6)",
+  "category": "Advanced Modern Treatment",
+  "benchmarks": {
+   "tier1": {
+    "min": 140000,
+    "max": 240000,
+    "standardAvg": 185000
+   },
+   "tier2": {
+    "min": 110000,
+    "max": 190000,
+    "standardAvg": 150000
+   },
+   "tier3": {
+    "min": 90000,
+    "max": 160000,
+    "standardAvg": 125000
+   }
+  }
+ },
+ {
+  "procedureName": "AYUSH Inpatient Treatment (Panchakarma/Ayurveda)",
+  "category": "AYUSH",
+  "benchmarks": {
+   "tier1": {
+    "min": 20000,
+    "max": 45000,
+    "standardAvg": 32000
+   },
+   "tier2": {
+    "min": 15000,
+    "max": 35000,
+    "standardAvg": 24000
+   },
+   "tier3": {
+    "min": 10000,
+    "max": 25000,
+    "standardAvg": 17000
+   }
+  }
+ },
+ {
+  "procedureName": "Haemodialysis session",
+  "category": "Nephrology",
+  "benchmarks": {
+   "tier1": {
+    "min": 2000,
+    "max": 3500,
+    "standardAvg": 2800
+   },
+   "tier2": {
+    "min": 1600,
+    "max": 2800,
+    "standardAvg": 2200
+   },
+   "tier3": {
+    "min": 1300,
+    "max": 2300,
+    "standardAvg": 1800
+   }
+  }
+ },
+ {
+  "procedureName": "Chemotherapy cycle (day care)",
+  "category": "Oncology",
+  "benchmarks": {
+   "tier1": {
+    "min": 18000,
+    "max": 45000,
+    "standardAvg": 30000
+   },
+   "tier2": {
+    "min": 15000,
+    "max": 38000,
+    "standardAvg": 25000
+   },
+   "tier3": {
+    "min": 12000,
+    "max": 32000,
+    "standardAvg": 20000
+   }
+  }
+ },
+ {
+  "procedureName": "Physiotherapy session",
+  "category": "Rehabilitation",
+  "benchmarks": {
+   "tier1": {
+    "min": 600,
+    "max": 1500,
+    "standardAvg": 1000
+   },
+   "tier2": {
+    "min": 450,
+    "max": 1200,
+    "standardAvg": 800
+   },
+   "tier3": {
+    "min": 350,
+    "max": 900,
+    "standardAvg": 600
+   }
+  }
+ }
+]

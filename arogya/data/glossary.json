@@ -1,0 +1,98 @@
+[
+ {
+  "text": "bed charges per night in a hospital ward private semi-private room accommodation boarding nursing daily rent cap percentage of sum insured",
+  "topic": "Room rent daily limit"
+ },
+ {
+  "text": "patient pays share from own pocket on every admissible claim copayment percentage deducted from settlement",
+  "topic": "Co-payment"
+ },
+ {
+  "text": "illness already present before buying the policy waiting period months before cover starts pre-existing disease declared",
+  "topic": "Pre-existing waiting period"
+ },
+ {
+  "text": "items hospital charges but insurer does not pay gloves masks admission kit registration file charges non-medical consumables not payable",
+  "topic": "Non-payable items"
+ },
+ {
+  "text": "ambulance road transport emergency to hospital maximum amount per hospitalisation",
+  "topic": "Ambulance"
+ },
+ {
+  "text": "eye surgery cataract lens implant phaco per eye limit sub-limit",
+  "topic": "Cataract"
+ },
+ {
+  "text": "robot assisted modern technology advanced surgery laser deep brain stimulation immunotherapy capped half of sum insured",
+  "topic": "Modern procedures"
+ },
+ {
+  "text": "fake forged fraudulent false claim misrepresentation concealment forfeiture of all benefits",
+  "topic": "Fraud"
+ },
+ {
+  "text": "tests scans consultations before admission days reimbursed pre-hospitalisation thirty days",
+  "topic": "Pre-hospitalisation"
+ },
+ {
+  "text": "follow up medicines checkups after discharge post-hospitalisation sixty days",
+  "topic": "Post-hospitalisation"
+ },
+ {
+  "text": "intensive care unit ICU ICCU daily charge cap percentage of sum insured",
+  "topic": "ICU cap"
+ },
+ {
+  "text": "ayurveda yoga unani siddha homeopathy AYUSH alternative medicine treatment in hospital",
+  "topic": "AYUSH"
+ },
+ {
+  "text": "no claim bonus cumulative bonus increases sum insured each claim free year renewal",
+  "topic": "Bonus"
+ },
+ {
+  "text": "pregnancy childbirth delivery maternity expenses excluded",
+  "topic": "Maternity"
+ },
+ {
+  "text": "cosmetic beauty plastic surgery not medically necessary excluded",
+  "topic": "Cosmetic"
+ },
+ {
+  "text": "vitamins tonics nutritional supplements dietary non prescription excluded",
+  "topic": "Supplements"
+ },
+ {
+  "text": "accident injury trauma emergency no waiting period exempt first thirty days",
+  "topic": "Accident"
+ },
+ {
+  "text": "hospitalisation at least twenty four hours stay day care procedures shorter stay allowed",
+  "topic": "Minimum stay"
+ },
+ {
+  "text": "surgeon anaesthetist consultant doctor professional fees operation theatre medicines blood oxygen diagnostics",
+  "topic": "Professional fees"
+ },
+ {
+  "text": "knee hip joint replacement arthroplasty osteoarthritis thirty six months waiting",
+  "topic": "Joint replacement wait"
+ },
+ {
+  "text": "gallstones hernia cataract piles tonsils hysterectomy listed illnesses twenty four months waiting",
+  "topic": "Listed illness wait"
+ },
+ {
+  "text": "maximum claim payable total sum insured ceiling coverage limit operative clause",
+  "topic": "Ceiling"
+ },
+ {
+  "text": "when room is more expensive than allowed other charges reduced in same proportion medicines exempt",
+  "topic": "Proportional cut"
+ },
+ {
+  "text": "admission only for investigation evaluation diagnostic tests without treatment not covered",
+  "topic": "Investigation only"
+ }
+]

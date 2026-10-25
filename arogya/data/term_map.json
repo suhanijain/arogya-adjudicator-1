@@ -1,0 +1,112 @@
+{
+ "ot charges": {
+  "normalized": "Operation Theatre & Equipment Charges",
+  "category": "operation_theatre",
+  "primaryClause": "Clause 4.1.d"
+ },
+ "theatre charges": {
+  "normalized": "Operation Theatre Charges",
+  "category": "operation_theatre",
+  "primaryClause": "Clause 4.1.d"
+ },
+ "room rent": {
+  "normalized": "Room, Boarding and Nursing Expenses",
+  "category": "room",
+  "primaryClause": "Clause 4.1.a"
+ },
+ "bed charges": {
+  "normalized": "Room and Boarding Charges",
+  "category": "room",
+  "primaryClause": "Clause 4.1.a"
+ },
+ "deluxe room": {
+  "normalized": "Room Rent (Single Deluxe Category)",
+  "category": "room",
+  "primaryClause": "Clause 4.1.a"
+ },
+ "icu charges": {
+  "normalized": "Intensive Care Unit (ICU) Charges",
+  "category": "icu",
+  "primaryClause": "Clause 4.1.b"
+ },
+ "iccu charges": {
+  "normalized": "Intensive Cardiac Care Unit (ICCU) Charges",
+  "category": "icu",
+  "primaryClause": "Clause 4.1.b"
+ },
+ "surgeon fee": {
+  "normalized": "Surgeon and Operating Specialist Fees",
+  "category": "surgeon_fee",
+  "primaryClause": "Clause 4.1.c"
+ },
+ "doctor visit": {
+  "normalized": "Treating Physician Consultation Fees",
+  "category": "doctor_consultation",
+  "primaryClause": "Clause 4.1.c"
+ },
+ "anaesthetist charge": {
+  "normalized": "Anaesthetist Professional Fee",
+  "category": "surgeon_fee",
+  "primaryClause": "Clause 4.1.c"
+ },
+ "pharmacy bill": {
+  "normalized": "Prescribed Inpatient Medicines and Drugs",
+  "category": "medicines",
+  "primaryClause": "Clause 4.1.d"
+ },
+ "injections and iv meds": {
+  "normalized": "Injectables and Intravenous Medicines",
+  "category": "medicines",
+  "primaryClause": "Clause 4.1.d"
+ },
+ "surgical gloves": {
+  "normalized": "Examination & Surgical Gloves (Non-Payable)",
+  "category": "consumables",
+  "primaryClause": "Annexure-A List I"
+ },
+ "cotton and gauze": {
+  "normalized": "Gauze and Cotton Bandages (Subsumed/Non-Payable)",
+  "category": "consumables",
+  "primaryClause": "Annexure-A List III"
+ },
+ "admission kit": {
+  "normalized": "Patient Admission Kit (Subsumed in Room)",
+  "category": "consumables",
+  "primaryClause": "Annexure-A List II"
+ },
+ "registration fee": {
+  "normalized": "Hospital Admission & Registration Charges",
+  "category": "consumables",
+  "primaryClause": "Annexure-A List IV"
+ },
+ "ambulance charge": {
+  "normalized": "Road Ambulance Transfer Expenses",
+  "category": "ambulance",
+  "primaryClause": "Clause 4.1.1.e"
+ },
+ "phaco surgery": {
+  "normalized": "Cataract Phacoemulsification Procedure",
+  "category": "procedure",
+  "primaryClause": "Clause 4.3"
+ },
+ "hernioplasty": {
+  "normalized": "Inguinal Hernioplasty Surgical Procedure",
+  "category": "procedure",
+  "primaryClause": "Clause 6.2(i)"
+ },
+ "cholecystectomy": {
+  "normalized": "Laparoscopic Cholecystectomy (Gallbladder)",
+  "category": "procedure",
+  "primaryClause": "Clause 6.2(i)"
+ },
+ "knee arthroplasty": {
+  "normalized": "Total Knee Replacement Arthroplasty",
+  "category": "procedure",
+  "primaryClause": "Clause 6.2(ii)"
+ },
+ "robotic prostatectomy": {
+  "normalized": "Robotic-Assisted Surgical Procedure",
+  "category": "procedure",
+  "primaryClause": "Clause 4.6"
+ }
+}

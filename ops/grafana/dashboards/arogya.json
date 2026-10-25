@@ -1,0 +1,198 @@
+{
+ "title": "Arogya claims",
+ "uid": "arogya",
+ "schemaVersion": 39,
+ "refresh": "10s",
+ "panels": [
+  {
+   "id": 1,
+   "title": "Claims by outcome",
+   "type": "barchart",
+   "datasource": "Prometheus",
+   "gridPos": {
+    "x": 0,
+    "y": 0,
+    "w": 8,
+    "h": 8
+   },
+   "targets": [
+    {
+     "expr": "sum by (outcome) (arogya_claims_total)",
+     "legendFormat": "{{outcome}}{{reason}}{{type}}{{node}}{{mode}}{{action}}{{status}}",
+     "refId": "A"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Approvals waiting",
+   "type": "stat",
+   "datasource": "Prometheus",
+   "gridPos": {
+    "x": 8,
+    "y": 0,
+    "w": 8,
+    "h": 8
+   },
+   "targets": [
+    {
+     "expr": "arogya_approvals_pending",
+     "legendFormat": "{{outcome}}{{reason}}{{type}}{{node}}{{mode}}{{action}}{{status}}",
+     "refId": "A"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Rupees settled",
+   "type": "stat",
+   "datasource": "Prometheus",
+   "gridPos": {
+    "x": 16,
+    "y": 0,
+    "w": 8,
+    "h": 8
+   },
+   "targets": [
+    {
+     "expr": "arogya_settled_rupees_total",
+     "legendFormat": "{{outcome}}{{reason}}{{type}}{{node}}{{mode}}{{action}}{{status}}",
+     "refId": "A"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Rupees deducted by reason",
+   "type": "barchart",
+   "datasource": "Prometheus",
+   "gridPos": {
+    "x": 0,
+    "y": 8,
+    "w": 8,
+    "h": 8
+   },
+   "targets": [
+    {
+     "expr": "sum by (reason) (arogya_deducted_rupees_total)",
+     "legendFormat": "{{outcome}}{{reason}}{{type}}{{node}}{{mode}}{{action}}{{status}}",
+     "refId": "A"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Fraud flags by type",
+   "type": "barchart",
+   "datasource": "Prometheus",
+   "gridPos": {
+    "x": 8,
+    "y": 8,
+    "w": 8,
+    "h": 8
+   },
+   "targets": [
+    {
+     "expr": "sum by (type) (arogya_fraud_flags_total)",
+     "legendFormat": "{{outcome}}{{reason}}{{type}}{{node}}{{mode}}{{action}}{{status}}",
+     "refId": "A"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Node time p95 (s)",
+   "type": "timeseries",
+   "datasource": "Prometheus",
+   "gridPos": {
+    "x": 16,
+    "y": 8,
+    "w": 8,
+    "h": 8
+   },
+   "targets": [
+    {
+     "expr": "histogram_quantile(0.95, sum by (le, node) (rate(arogya_node_seconds_bucket[5m])))",
+     "legendFormat": "{{outcome}}{{reason}}{{type}}{{node}}{{mode}}{{action}}{{status}}",
+     "refId": "A"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Model calls by mode",
+   "type": "piechart",
+   "datasource": "Prometheus",
+   "gridPos": {
+    "x": 0,
+    "y": 16,
+    "w": 8,
+    "h": 8
+   },
+   "targets": [
+    {
+     "expr": "sum by (mode) (arogya_llm_calls_total)",
+     "legendFormat": "{{outcome}}{{reason}}{{type}}{{node}}{{mode}}{{action}}{{status}}",
+     "refId": "A"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Adjudicator decisions",
+   "type": "barchart",
+   "datasource": "Prometheus",
+   "gridPos": {
+    "x": 8,
+    "y": 16,
+    "w": 8,
+    "h": 8
+   },
+   "targets": [
+    {
+     "expr": "sum by (action, level) (arogya_decisions_total)",
+     "legendFormat": "{{outcome}}{{reason}}{{type}}{{node}}{{mode}}{{action}}{{status}}",
+     "refId": "A"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "title": "Critic send-backs",
+   "type": "stat",
+   "datasource": "Prometheus",
+   "gridPos": {
+    "x": 16,
+    "y": 16,
+    "w": 8,
+    "h": 8
+   },
+   "targets": [
+    {
+     "expr": "arogya_critic_revisions_total",
+     "legendFormat": "{{outcome}}{{reason}}{{type}}{{node}}{{mode}}{{action}}{{status}}",
+     "refId": "A"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "title": "Lessons by status",
+   "type": "barchart",
+   "datasource": "Prometheus",
+   "gridPos": {
+    "x": 0,
+    "y": 24,
+    "w": 8,
+    "h": 8
+   },
+   "targets": [
+    {
+     "expr": "arogya_lessons",
+     "legendFormat": "{{outcome}}{{reason}}{{type}}{{node}}{{mode}}{{action}}{{status}}",
+     "refId": "A"
+    }
+   ]
+  }
+ ]
+}

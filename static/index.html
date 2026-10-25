@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arogya Adjudicate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@600;700&display=swap">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span id="logo"></span><div><b>Arogya <i>Adjudicate</i></b><small>Arogya Sanjeevani standard product</small></div><span class="chip info" id="enginechip">Engine</span></div>
+  <form class="search" id="gsearch" role="search"><span id="searchic"></span><input id="q" placeholder="Claim ID (CLM-001), policy number or patient name" aria-label="Search"></form>
+  <span class="live"><i></i>Engine online</span>
+  <nav class="roles" id="roles" aria-label="View">
+    <button data-role="patient">Patient</button><button data-role="hospital">Network hospital</button><button data-role="adjudicator">Adjudicator</button>
+  </nav>
+  <div class="who" id="who"></div>
+</header>
+<div class="shell">
+  <aside class="side" id="side"></aside>
+  <main id="app"></main>
+</div>
+<script src="/static/app.js"></script>
+<script src="/static/patient.js"></script>
+<script src="/static/hospital.js"></script>
+<script src="/static/adjudicator.js"></script>
+<script>render();</script>
+</body>
+</html>

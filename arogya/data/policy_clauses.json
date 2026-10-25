@@ -1,0 +1,489 @@
+[
+ {
+  "id": "clause-1",
+  "clauseNumber": "Clause 1",
+  "title": "Preamble",
+  "section": "Contract Basis",
+  "text": "This Policy is a contract of insurance issued by The New India Assurance Co. Ltd., to the proposer mentioned in the schedule to cover the person(s) named in the schedule. The policy is based on the statements and declaration provided in the proposal Form by the proposer and is subject to receipt of the requisite premium.",
+  "ruleType": "condition",
+  "tags": [
+   "preamble",
+   "contract",
+   "premium",
+   "proposer"
+  ]
+ },
+ {
+  "id": "clause-2",
+  "clauseNumber": "Clause 2",
+  "title": "Operative Clause & Sum Insured Ceiling",
+  "section": "Coverage & Scope",
+  "text": "If during the policy period one or more Insured Person(s) is required to be hospitalized for treatment of an Illness or Injury at a Hospital/Day Care Centre, following Medical Advice, the Company shall indemnify Medically necessary expenses towards Coverage. Maximum liability of the Company under all such Claims during each Policy Year shall be the Sum Insured (Individual or Floater) opted and Cumulative Bonus (if any) specified in the Schedule.",
+  "ruleType": "coverage",
+  "tags": [
+   "operative",
+   "hospitalization",
+   "sum insured",
+   "maximum liability",
+   "cumulative bonus"
+  ]
+ },
+ {
+  "id": "clause-3-1",
+  "clauseNumber": "Clause 3.1",
+  "title": "Definition of Accident",
+  "section": "Definitions",
+  "text": "Accident means a sudden, unforeseen and involuntary event caused by external, visible and violent means. Claims arising solely from accidental injury are exempt from waiting periods.",
+  "ruleType": "eligibility",
+  "tags": [
+   "accident",
+   "injury",
+   "waiting period exemption"
+  ]
+ },
+ {
+  "id": "clause-3-13",
+  "clauseNumber": "Clause 3.13",
+  "title": "Definition of Co-payment",
+  "section": "Definitions",
+  "text": "Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claims amount. A co-payment does not reduce the Sum Insured.",
+  "ruleType": "copay",
+  "tags": [
+   "copay",
+   "cost sharing",
+   "admissible amount"
+  ]
+ },
+ {
+  "id": "clause-3-23",
+  "clauseNumber": "Clause 3.23",
+  "title": "Definition of Hospitalisation & Minimum 24-Hour Stay",
+  "section": "Definitions",
+  "text": "Hospitalisation means admission in a hospital for a minimum period of twenty-four (24) consecutive In-patient care hours except for specified procedures/treatments (Day Care Treatments), where such admission could be for a period of less than 24 consecutive hours.",
+  "ruleType": "eligibility",
+  "tags": [
+   "hospitalisation",
+   "24 hours",
+   "in-patient",
+   "day care"
+  ]
+ },
+ {
+  "id": "clause-4-1-a",
+  "clauseNumber": "Clause 4.1.a",
+  "title": "Room Rent, Boarding & Nursing Cap (2% of SI, Max ₹5,000/day)",
+  "section": "Hospitalization Coverage",
+  "text": "Room Rent, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home up to 2% of the sum insured subject to maximum of Rs.5,000/-, per day.",
+  "ruleType": "coverage",
+  "tags": [
+   "room rent",
+   "boarding",
+   "nursing",
+   "sublimit",
+   "room cap",
+   "5000",
+   "2 percent"
+  ]
+ },
+ {
+  "id": "clause-4-1-b",
+  "clauseNumber": "Clause 4.1.b",
+  "title": "ICU / ICCU Expense Cap (5% of SI, Max ₹10,000/day)",
+  "section": "Hospitalization Coverage",
+  "text": "Intensive Care Unit (ICU) / Intensive Cardiac Care Unit (ICCU) expenses up to 5% of sum insured subject to maximum of Rs.10,000/- per day.",
+  "ruleType": "coverage",
+  "tags": [
+   "icu",
+   "iccu",
+   "intensive care",
+   "10000",
+   "5 percent"
+  ]
+ },
+ {
+  "id": "clause-4-1-c",
+  "clauseNumber": "Clause 4.1.c",
+  "title": "Surgeon, Anaesthetist & Medical Practitioner Fees",
+  "section": "Hospitalization Coverage",
+  "text": "Surgeon, Anaesthetist, Medical Practitioner, Consultants, Specialist Fees whether paid directly to the treating doctor / surgeon or to the hospital.",
+  "ruleType": "coverage",
+  "tags": [
+   "doctor fees",
+   "surgeon fee",
+   "consultant",
+   "specialist",
+   "anaesthetist"
+  ]
+ },
+ {
+  "id": "clause-4-1-d",
+  "clauseNumber": "Clause 4.1.d",
+  "title": "Operation Theatre, Medicines, Blood, Oxygen & Diagnostics",
+  "section": "Hospitalization Coverage",
+  "text": "Anaesthesia, blood, oxygen, operation theatre charges, surgical appliances, medicines and drugs, costs towards diagnostics, diagnostic imaging modalities and such similar other expenses.",
+  "ruleType": "coverage",
+  "tags": [
+   "ot charges",
+   "operation theatre",
+   "medicines",
+   "drugs",
+   "anaesthesia",
+   "oxygen",
+   "diagnostics"
+  ]
+ },
+ {
+  "id": "clause-4-1-note-a",
+  "clauseNumber": "Clause 4.1 Note a",
+  "title": "Hospitalization Minimum 24 Consecutive Hours Requirement",
+  "section": "Hospitalization Coverage",
+  "text": "Expenses of Hospitalization for a minimum period of 24 consecutive hours only shall be admissible. However, the time limit shall not apply in respect of Day Care Treatment (listed in Annexure C).",
+  "ruleType": "eligibility",
+  "tags": [
+   "24 hours",
+   "minimum stay",
+   "day care exemption"
+  ]
+ },
+ {
+  "id": "clause-4-1-note-b",
+  "clauseNumber": "Clause 4.1 Note b",
+  "title": "Proportional Cut on Room Rent Breach (Medicines Exempt)",
+  "section": "Hospitalization Coverage",
+  "text": "In case of admission to a room/ICU/ICCU at rates exceeding the aforesaid limits, the reimbursement/payment of all other expenses incurred at the Hospital, with the exception of cost of medicines, shall be effected in the same proportion as the admissible rate per day bears to the actual rate per day of Room Rent/ICU/ICCU charges.",
+  "ruleType": "sublimit",
+  "tags": [
+   "proportional cut",
+   "room rent breach",
+   "associated charges",
+   "medicines exempt",
+   "admissible rate",
+   "actual rate"
+  ]
+ },
+ {
+  "id": "clause-4-1-1-e",
+  "clauseNumber": "Clause 4.1.1.e",
+  "title": "Road Ambulance Expenses (Max ₹2,000 per hospitalization)",
+  "section": "Other Expenses",
+  "text": "Expenses incurred on road Ambulance subject to a maximum of Rs.2,000/- per hospitalisation.",
+  "ruleType": "sublimit",
+  "tags": [
+   "ambulance",
+   "road ambulance",
+   "2000 sublimit"
+  ]
+ },
+ {
+  "id": "clause-4-2",
+  "clauseNumber": "Clause 4.2",
+  "title": "Coverage Under AYUSH Treatment (Up to 100% SI)",
+  "section": "Alternative Treatment",
+  "text": "Expenses incurred for inpatient care treatment under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems of medicines is covered up to 100% of Sum Insured, during each policy year as specified in the policy schedule.",
+  "ruleType": "coverage",
+  "tags": [
+   "ayush",
+   "ayurveda",
+   "homeopathy",
+   "unani",
+   "siddha",
+   "inpatient"
+  ]
+ },
+ {
+  "id": "clause-4-3",
+  "clauseNumber": "Clause 4.3",
+  "title": "Cataract Treatment Sub-Limit (25% of SI or ₹40,000 per eye)",
+  "section": "Sub-Limits",
+  "text": "The Company shall indemnify medical expenses incurred for treatment of Cataract, subject to a limit of 25% of Sum Insured or Rs. 40,000/-, whichever is lower, per eye in one policy year.",
+  "ruleType": "sublimit",
+  "tags": [
+   "cataract",
+   "eye surgery",
+   "sublimit",
+   "40000",
+   "25 percent"
+  ]
+ },
+ {
+  "id": "clause-4-4",
+  "clauseNumber": "Clause 4.4",
+  "title": "Pre-Hospitalization Expenses (30 Days)",
+  "section": "Coverage Timelines",
+  "text": "The company shall indemnify pre-hospitalization medical expenses incurred, related to an admissible hospitalization requiring inpatient care, for a fixed period of 30 days prior to the date of admissible hospitalization covered under the policy.",
+  "ruleType": "coverage",
+  "tags": [
+   "pre hospitalization",
+   "30 days",
+   "prior expenses"
+  ]
+ },
+ {
+  "id": "clause-4-5",
+  "clauseNumber": "Clause 4.5",
+  "title": "Post-Hospitalization Expenses (60 Days)",
+  "section": "Coverage Timelines",
+  "text": "The company shall indemnify post hospitalization medical expenses incurred, related to an admissible hospitalization requiring inpatient care, for a fixed period of 60 days from the date of discharge from the hospital, following an admissible hospitalization covered under the policy.",
+  "ruleType": "coverage",
+  "tags": [
+   "post hospitalization",
+   "60 days",
+   "discharge follow-up"
+  ]
+ },
+ {
+  "id": "clause-4-6",
+  "clauseNumber": "Clause 4.6",
+  "title": "Modern Advanced Procedures (Capped at 50% of Sum Insured)",
+  "section": "Advanced Treatments",
+  "text": "The following procedures will be covered (wherever medically indicated) either as in patient or as part of day care treatment in a hospital up to 50% of Sum Insured: Uterine Artery Embolization/HIFU, Balloon Sinuplasty, Deep Brain stimulation, Oral chemotherapy, Immunotherapy - Monoclonal Antibody, Intra vitreal injections, Robotic surgeries, Stereotactic radio surgeries, Bronchial Thermoplasty, Vaporisation of the prostate (Green laser), IONM, Stem cell therapy.",
+  "ruleType": "sublimit",
+  "tags": [
+   "modern treatment",
+   "robotic surgery",
+   "50 percent",
+   "immunotherapy",
+   "balloon sinuplasty"
+  ]
+ },
+ {
+  "id": "clause-4-7",
+  "clauseNumber": "Clause 4.7",
+  "title": "Non-Payable & Subsumed Items (Annexure-A)",
+  "section": "Exclusions & Consumables",
+  "text": "The expenses that are not covered in this policy are placed under List-I of Annexure-A. The list of expenses that are to be subsumed into room charges, or procedure charges or costs of treatment are placed under List-II, List-III and List-IV of Annexure-A respectively.",
+  "ruleType": "exclusion",
+  "tags": [
+   "annexure a",
+   "non payable",
+   "consumables",
+   "gloves",
+   "subsumed charges"
+  ]
+ },
+ {
+  "id": "clause-5",
+  "clauseNumber": "Clause 5",
+  "title": "Cumulative Bonus (CB) - 5% per claim-free year (Max 50%)",
+  "section": "Benefits",
+  "text": "Cumulative Bonus will be increased by 5% in respect of each claim free policy year, provided the policy is renewed without break, subject to maximum of 50% of the sum insured under current policy year. If a claim is made in any particular year, the cumulative bonus shall be reduced at the same rate.",
+  "ruleType": "coverage",
+  "tags": [
+   "cumulative bonus",
+   "cb",
+   "bonus",
+   "claim free"
+  ]
+ },
+ {
+  "id": "clause-6-1",
+  "clauseNumber": "Clause 6.1 (Excl01)",
+  "title": "Pre-Existing Diseases Waiting Period (36 Months)",
+  "section": "Waiting Periods",
+  "text": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with us.",
+  "ruleType": "waiting_period",
+  "tags": [
+   "ped",
+   "pre-existing",
+   "36 months",
+   "waiting period",
+   "excl01"
+  ]
+ },
+ {
+  "id": "clause-6-2-i",
+  "clauseNumber": "Clause 6.2(i) (Excl02)",
+  "title": "Specific Waiting Period - 24 Months Listed Illnesses",
+  "section": "Waiting Periods",
+  "text": "Expenses related to the treatment of the following conditions/surgeries shall be excluded until expiry of 24 months continuous coverage: 1. Benign ENT disorders, 2. Tonsillectomy, 3. Adenoidectomy, 4. Mastoidectomy, 5. Tympanoplasty, 6. Hysterectomy, 7. Benign tumours/cysts/polyps, 8. Benign prostate hypertrophy, 9. Cataract and age-related eye ailments, 10. Gastric/Duodenal Ulcer, 11. Gout and Rheumatism, 12. Hernia of all types, 13. Hydrocele, 14. Non-infective Arthritis, 15. Piles, Fissures and Fistula in anus, 16. Pilonidal sinus/Sinusitis, 17. Disc & Spinal Diseases unless accidental, 18. Calculi in urinary system/Gall Bladder/Bile duct, 19. Varicose veins, 20. Internal Congenital Anomalies.",
+  "ruleType": "waiting_period",
+  "tags": [
+   "24 months",
+   "specific waiting period",
+   "hernia",
+   "hydrocele",
+   "cataract",
+   "piles",
+   "calculi",
+   "gallstones",
+   "excl02"
+  ]
+ },
+ {
+  "id": "clause-6-2-ii",
+  "clauseNumber": "Clause 6.2(ii) (Excl02)",
+  "title": "Specific Waiting Period - 36 Months Joint Replacement & Osteoarthritis",
+  "section": "Waiting Periods",
+  "text": "Expenses related to: 1. Treatment for joint replacement unless arising from accident, 2. Age-related Osteoarthritis & Osteoporosis, shall be excluded until expiry of 36 months continuous coverage.",
+  "ruleType": "waiting_period",
+  "tags": [
+   "36 months",
+   "joint replacement",
+   "knee replacement",
+   "osteoarthritis",
+   "osteoporosis",
+   "excl02"
+  ]
+ },
+ {
+  "id": "clause-6-3",
+  "clauseNumber": "Clause 6.3 (Excl03)",
+  "title": "First Thirty Days Waiting Period (30 Days Initial Inception)",
+  "section": "Waiting Periods",
+  "text": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. This exclusion shall not apply if continuous coverage exceeds 12 months.",
+  "ruleType": "waiting_period",
+  "tags": [
+   "30 days",
+   "initial waiting period",
+   "first 30 days",
+   "excl03",
+   "accident exemption"
+  ]
+ },
+ {
+  "id": "clause-7-1",
+  "clauseNumber": "Clause 7.1 (Excl04)",
+  "title": "Investigation & Evaluation Exclusion",
+  "section": "General Exclusions",
+  "text": "Expenses related to any admission primarily for diagnostics and evaluation purposes. Any diagnostic expenses which are not related or not incidental to the current diagnosis and treatment are excluded.",
+  "ruleType": "exclusion",
+  "tags": [
+   "investigation",
+   "evaluation",
+   "diagnostic admission",
+   "excl04"
+  ]
+ },
+ {
+  "id": "clause-7-5",
+  "clauseNumber": "Clause 7.5 (Excl08)",
+  "title": "Cosmetic or Plastic Surgery Exclusion",
+  "section": "General Exclusions",
+  "text": "Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment certified by attending practitioner.",
+  "ruleType": "exclusion",
+  "tags": [
+   "cosmetic",
+   "plastic surgery",
+   "aesthetic",
+   "excl08"
+  ]
+ },
+ {
+  "id": "clause-7-11",
+  "clauseNumber": "Clause 7.11 (Excl14)",
+  "title": "Dietary Supplements & Non-Prescription Substances Exclusion",
+  "section": "General Exclusions",
+  "text": "Dietary supplements and substances that can be purchased without prescription, including but not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure.",
+  "ruleType": "exclusion",
+  "tags": [
+   "dietary supplements",
+   "vitamins",
+   "otc",
+   "excl14"
+  ]
+ },
+ {
+  "id": "clause-7-15",
+  "clauseNumber": "Clause 7.15 (Excl18)",
+  "title": "Maternity Expenses Exclusion",
+  "section": "General Exclusions",
+  "text": "Medical treatment expenses traceable to childbirth (including complicated deliveries and caesarean sections incurred during hospitalization) except ectopic pregnancy; expenses towards miscarriage unless due to accident.",
+  "ruleType": "exclusion",
+  "tags": [
+   "maternity",
+   "childbirth",
+   "pregnancy",
+   "cesarean",
+   "excl18"
+  ]
+ },
+ {
+  "id": "clause-9-5",
+  "clauseNumber": "Clause 9.5",
+  "title": "Mandatory 5% Co-Payment on Admissible Claim Amount",
+  "section": "Settlement Terms",
+  "text": "Each and every claim under the Policy shall be subject to a Co-Payment of 5% applicable to claim amount admissible and payable as per the terms and conditions of the Policy. The amount payable shall be after deduction of the Co-Payment.",
+  "ruleType": "copay",
+  "tags": [
+   "co-payment",
+   "5 percent",
+   "copay",
+   "mandatory cost sharing"
+  ]
+ },
+ {
+  "id": "clause-10-9",
+  "clauseNumber": "Clause 10.9",
+  "title": "Fraudulent Claims & Forfeiture of Benefits",
+  "section": "General Conditions",
+  "text": "If any claim made by the insured person is in any respect fraudulent, or if any false statement or declaration is made or used in support thereof, or if any fraudulent means or devices are used to obtain any benefit under this policy, all benefits under this policy shall be forfeited. Any amount already paid against claims found fraudulent later shall be repaid jointly and severally.",
+  "ruleType": "condition",
+  "tags": [
+   "fraud",
+   "forfeiture",
+   "false statement",
+   "duplicate bills"
+  ]
+ },
+ {
+  "id": "annexure-a-list-1",
+  "clauseNumber": "Annexure-A List I",
+  "title": "List I - Items for which coverage is not available (Non-Payable)",
+  "section": "Consumables & Non-Payables",
+  "text": "Comprehensive list of 68 items: Gloves, Masks, Diapers, Cotton, Buds, Coldpack/Hotpack, Crepe Bandages, Attendant Charges, Luxury Tax, Administrative / Documentation charges, Mineral Water, Surcharges, Diapers, Thermometer, Nebulizer kit, Apron, Eye drape, Walking aids, Spacers, Urine container, Vasofix safety, etc.",
+  "ruleType": "exclusion",
+  "tags": [
+   "list 1",
+   "non payable",
+   "consumables",
+   "gloves",
+   "diapers",
+   "attendant charges"
+  ]
+ },
+ {
+  "id": "annexure-a-list-2",
+  "clauseNumber": "Annexure-A List II",
+  "title": "List II - Items Subsumed into Room Charges",
+  "section": "Consumables & Non-Payables",
+  "text": "Items to be subsumed into room charges: Admission kit, Housekeeping, Linen/Clean Sheet, Blanket, IV/IM injection charges, Bed pan, Visitors pass, File opening charges, Daily chart charges, Patient identification band.",
+  "ruleType": "exclusion",
+  "tags": [
+   "list 2",
+   "subsumed in room",
+   "admission kit",
+   "housekeeping",
+   "linen"
+  ]
+ },
+ {
+  "id": "annexure-a-list-3",
+  "clauseNumber": "Annexure-A List III",
+  "title": "List III - Items Subsumed into Procedure Charges",
+  "section": "Consumables & Non-Payables",
+  "text": "Items to be subsumed into procedure charges: Surgical blades, Harmonic scalpel, Shaver, Surgical drill, Eye kit, Eye drape, Boyles apparatus, Gauze, Surgical tape, Apron, Torniquet.",
+  "ruleType": "exclusion",
+  "tags": [
+   "list 3",
+   "subsumed in procedure",
+   "surgical blades",
+   "gauze",
+   "drapes"
+  ]
+ },
+ {
+  "id": "annexure-a-list-4",
+  "clauseNumber": "Annexure-A List IV",
+  "title": "List IV - Items Subsumed into Costs of Treatment",
+  "section": "Consumables & Non-Payables",
+  "text": "Items subsumed into cost of treatment: Admission/Registration charges, Spirit/Disinfectants, Dietician planning charges, Antiseptic mouthwash, Alcohol swabs, Scrub solution/Sterillium, Glucometer strips.",
+  "ruleType": "exclusion",
+  "tags": [
+   "list 4",
+   "subsumed in treatment",
+   "registration charges",
+   "spirit",
+   "alcohol swabs"
+  ]
+ }
+]

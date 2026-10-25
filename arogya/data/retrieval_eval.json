@@ -1,0 +1,150 @@
+[
+ {
+  "query": "charges for the bed and nurse per night",
+  "expected": [
+   "Clause 4.1.a"
+  ]
+ },
+ {
+  "query": "how much does the patient pay from their own pocket on every claim",
+  "expected": [
+   "Clause 9.5",
+   "Clause 3.13"
+  ]
+ },
+ {
+  "query": "illness the person already had before buying the policy, how long to wait",
+  "expected": [
+   "Clause 6.1 (Excl01)"
+  ]
+ },
+ {
+  "query": "things the hospital bills that the insurer will never pay such as gloves",
+  "expected": [
+   "Clause 4.7",
+   "Annexure-A List I"
+  ]
+ },
+ {
+  "query": "transport to hospital by ambulance, what is the limit",
+  "expected": [
+   "Clause 4.1.1.e"
+  ]
+ },
+ {
+  "query": "eye lens surgery limit per eye",
+  "expected": [
+   "Clause 4.3"
+  ]
+ },
+ {
+  "query": "robot assisted surgery maximum amount",
+  "expected": [
+   "Clause 4.6"
+  ]
+ },
+ {
+  "query": "fake or forged claim consequences",
+  "expected": [
+   "Clause 10.9"
+  ]
+ },
+ {
+  "query": "tests done in the month before admission, are they reimbursed",
+  "expected": [
+   "Clause 4.4"
+  ]
+ },
+ {
+  "query": "follow up medicines after leaving the hospital",
+  "expected": [
+   "Clause 4.5"
+  ]
+ },
+ {
+  "query": "intensive care unit daily limit",
+  "expected": [
+   "Clause 4.1.b"
+  ]
+ },
+ {
+  "query": "ayurvedic or yoga based treatment in hospital",
+  "expected": [
+   "Clause 4.2"
+  ]
+ },
+ {
+  "query": "cover increases for each year without a claim",
+  "expected": [
+   "Clause 5"
+  ]
+ },
+ {
+  "query": "pregnancy and childbirth cover",
+  "expected": [
+   "Clause 7.15 (Excl18)"
+  ]
+ },
+ {
+  "query": "beauty and plastic surgery",
+  "expected": [
+   "Clause 7.5 (Excl08)"
+  ]
+ },
+ {
+  "query": "vitamins and nutritional supplements",
+  "expected": [
+   "Clause 7.11 (Excl14)"
+  ]
+ },
+ {
+  "query": "injury in a road accident in the first weeks of the policy",
+  "expected": [
+   "Clause 6.3 (Excl03)",
+   "Clause 3.1"
+  ]
+ },
+ {
+  "query": "how many hours must a patient stay for it to count as hospitalisation",
+  "expected": [
+   "Clause 3.23",
+   "Clause 4.1 Note a"
+  ]
+ },
+ {
+  "query": "surgeon and anaesthetist fees",
+  "expected": [
+   "Clause 4.1.c"
+  ]
+ },
+ {
+  "query": "waiting period for a new knee joint",
+  "expected": [
+   "Clause 6.2(ii) (Excl02)"
+  ]
+ },
+ {
+  "query": "gallstones surgery soon after buying the policy",
+  "expected": [
+   "Clause 6.2(i) (Excl02)"
+  ]
+ },
+ {
+  "query": "the most the insurer can ever pay in total",
+  "expected": [
+   "Clause 2"
+  ]
+ },
+ {
+  "query": "room too expensive so other charges are cut in the same ratio",
+  "expected": [
+   "Clause 4.1 Note b"
+  ]
+ },
+ {
+  "query": "admitted only for tests and evaluation",
+  "expected": [
+   "Clause 7.1 (Excl04)"
+  ]
+ }
+]
