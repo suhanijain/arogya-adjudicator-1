@@ -3,10 +3,10 @@ Adjudication application leveraging Agentic Orchestration
 
 # Steps
 
- python -m venv .venv
- .\.venv\Scripts\Activate.ps1
- pip install -r requirements.txt
- python -m uvicorn server:app --port 8000
+#### python -m venv .venv
+#### .\.venv\Scripts\Activate.ps1
+#### pip install -r requirements.txt
+#### python -m uvicorn server:app --port 8000
 
 # Snapshot
 
