@@ -61,29 +61,30 @@ Deploy the backend on Render
 2. In the Render dashboard, choose New > Blueprint.
 3. Connect the GitHub repository and select the branch to deploy.
 4. Review the Blueprint resources and create the service.
-   Render generates CLAIMS_APPROVAL_SECRET and mounts a 1 GB persistent disk
-   at /var/data. The Chroma index is stored in /var/data/.vectordb.
+   Render generates CLAIMS_APPROVAL_SECRET. The service uses Render's Free
+   plan and does not require a persistent disk.
 5. Wait for the deploy to pass its /healthz check, then open the service URL.
 
-Render persistent disks require a paid web-service plan. A persistent disk is
-attached to a single running service instance, so keep this demo at one instance.
-The disk preserves the Chroma index across deploys and restarts, but the
-application's claim decisions, pre-approvals, tokens, and lesson changes are
-currently held in memory and reset on restart. Do not use this deployment for
-real operational or patient data.
+The Chroma index is under 1 MB locally, is generated from committed policy and
+glossary data, and is rebuilt automatically. Render Free services have
+ephemeral filesystems, spin down after inactivity, and may take about a minute
+to wake; the vector index will be recreated after a restart or spin-down.
+The application's claim decisions, pre-approvals, tokens, and lesson changes
+are also held in memory and reset on restart. This is suitable for a synthetic
+demo, not real operational or patient data.
 
 Netlify deployment note
 -----------------------
 This repository is a full-stack FastAPI application, not a static-only website.
 The UI calls /api/... endpoints and the backend builds a persistent Chroma
-index. Netlify's standard static-site deployment cannot run server.py, so
-deploying only the static/ directory will display the UI but its API-backed
-features will not work.
+index from committed policy data. Netlify's standard static-site deployment
+cannot run server.py, so deploying only the static/ directory will display
+the UI but its API-backed features will not work.
 
-To make a working public deployment, first deploy the Python backend and its
-persistent storage on a Python/container host. Then configure the frontend to
-use that backend (including CORS and secure approval credentials), and add a
-Netlify proxy/rewrite or equivalent API configuration. This repository does
-not yet include that deployment configuration. Do not expose the demo approval
-secret or publish a working claims application with real personal health data
-without appropriate security and privacy controls.
+To make a working public deployment, deploy the Python backend on a
+Python/container host. Then configure the frontend to use that backend
+(including CORS and secure approval credentials), and add a Netlify
+proxy/rewrite or equivalent API configuration. This repository does not yet
+include that deployment configuration. Do not expose the demo approval secret
+or publish a working claims application with real personal health data without
+appropriate security and privacy controls.

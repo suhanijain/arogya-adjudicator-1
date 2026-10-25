@@ -2,17 +2,11 @@ services:
   - type: web
     name: arogya-adjudicator
     runtime: docker
-    plan: starter
+    plan: free
     dockerfilePath: ./Dockerfile
     dockerContext: .
     healthCheckPath: /healthz
-    disk:
-      name: arogya-data
-      mountPath: /var/data
-      sizeGB: 1
     envVars:
-      - key: VECTOR_DB_DIR
-        value: /var/data/.vectordb
       - key: CLAIMS_APPROVAL_SECRET
         generateValue: true
       - key: LANGSMITH_TRACING
